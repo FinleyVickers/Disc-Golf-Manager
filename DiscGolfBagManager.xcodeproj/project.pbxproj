@@ -16,6 +16,12 @@
 		80C0611F2CBC850E0052940E /* DiscGolfBagManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0611E2CBC850E0052940E /* DiscGolfBagManagerTests.swift */; };
 		80C061292CBC850E0052940E /* DiscGolfBagManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C061282CBC850E0052940E /* DiscGolfBagManagerUITests.swift */; };
 		80C0612B2CBC850E0052940E /* DiscGolfBagManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0612A2CBC850E0052940E /* DiscGolfBagManagerUITestsLaunchTests.swift */; };
+		80C0613A2CBC85510052940E /* DIsc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C061392CBC85510052940E /* DIsc.swift */; };
+		80C0613C2CBC856A0052940E /* BagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0613B2CBC856A0052940E /* BagViewModel.swift */; };
+		80C0613E2CBC85970052940E /* DiscRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0613D2CBC85970052940E /* DiscRow.swift */; };
+		80C061402CBC85A60052940E /* AddDiscView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0613F2CBC85A60052940E /* AddDiscView.swift */; };
+		80C061432CBCB27A0052940E /* DiscEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C061412CBCB27A0052940E /* DiscEntity+CoreDataClass.swift */; };
+		80C061442CBCB27A0052940E /* DiscEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C061422CBCB27A0052940E /* DiscEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,12 @@
 		80C061242CBC850E0052940E /* DiscGolfBagManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscGolfBagManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C061282CBC850E0052940E /* DiscGolfBagManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscGolfBagManagerUITests.swift; sourceTree = "<group>"; };
 		80C0612A2CBC850E0052940E /* DiscGolfBagManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscGolfBagManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80C061392CBC85510052940E /* DIsc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIsc.swift; sourceTree = "<group>"; };
+		80C0613B2CBC856A0052940E /* BagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewModel.swift; sourceTree = "<group>"; };
+		80C0613D2CBC85970052940E /* DiscRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscRow.swift; sourceTree = "<group>"; };
+		80C0613F2CBC85A60052940E /* AddDiscView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiscView.swift; sourceTree = "<group>"; };
+		80C061412CBCB27A0052940E /* DiscEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiscEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		80C061422CBCB27A0052940E /* DiscEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiscEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,8 @@
 		80C060FC2CBC850D0052940E = {
 			isa = PBXGroup;
 			children = (
+				80C061412CBCB27A0052940E /* DiscEntity+CoreDataClass.swift */,
+				80C061422CBCB27A0052940E /* DiscEntity+CoreDataProperties.swift */,
 				80C061072CBC850D0052940E /* DiscGolfBagManager */,
 				80C0611D2CBC850E0052940E /* DiscGolfBagManagerTests */,
 				80C061272CBC850E0052940E /* DiscGolfBagManagerUITests */,
@@ -104,6 +118,10 @@
 				80C061112CBC850E0052940E /* Persistence.swift */,
 				80C061132CBC850E0052940E /* DiscGolfBagManager.xcdatamodeld */,
 				80C0610E2CBC850E0052940E /* Preview Content */,
+				80C061392CBC85510052940E /* DIsc.swift */,
+				80C0613B2CBC856A0052940E /* BagViewModel.swift */,
+				80C0613D2CBC85970052940E /* DiscRow.swift */,
+				80C0613F2CBC85A60052940E /* AddDiscView.swift */,
 			);
 			path = DiscGolfBagManager;
 			sourceTree = "<group>";
@@ -263,10 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C0613C2CBC856A0052940E /* BagViewModel.swift in Sources */,
+				80C061402CBC85A60052940E /* AddDiscView.swift in Sources */,
 				80C061122CBC850E0052940E /* Persistence.swift in Sources */,
+				80C061432CBCB27A0052940E /* DiscEntity+CoreDataClass.swift in Sources */,
 				80C0610B2CBC850D0052940E /* ContentView.swift in Sources */,
+				80C0613E2CBC85970052940E /* DiscRow.swift in Sources */,
+				80C061442CBCB27A0052940E /* DiscEntity+CoreDataProperties.swift in Sources */,
 				80C061092CBC850D0052940E /* DiscGolfBagManagerApp.swift in Sources */,
 				80C061152CBC850E0052940E /* DiscGolfBagManager.xcdatamodeld in Sources */,
+				80C0613A2CBC85510052940E /* DIsc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
